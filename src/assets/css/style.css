@@ -776,8 +776,9 @@ footer {
 }
 
 .footer-logo img {
-    max-height: 50px;
+    max-height: 80px;
     width: auto;
+    border-radius: 8px;
 }
 
 .footer-info {
@@ -812,6 +813,13 @@ footer {
 }
 
 .social-links .fa-twitter:hover {
+    color: #ffbe0a;
+    transform: scale(1.3);
+    text-shadow: 0 0 15px rgba(255, 190, 10, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links .fa-medium:hover {
     color: #ffbe0a;
     transform: scale(1.3);
     text-shadow: 0 0 15px rgba(255, 190, 10, 0.5);
