@@ -440,7 +440,12 @@ form button:hover {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
+/* CARROSSEL */
 
+
+
+/* FIM CARROSSEL */
+/* EBOOK SECTION */
 .ebook-section {
     background-color: #101820;
     color: #fff;
@@ -480,7 +485,8 @@ form button:hover {
     color: #ffbe0a;
     font-weight: bold;
 }
-
+/* FIM EBOOK SECTION */
+/* FORM SECTION */
 .form-section {
     background-color: #fff;
     padding: 60px 20px;
@@ -654,7 +660,7 @@ form button:hover {
     background-color: #ffd35c;
     color: #101820;
 }
-
+/* FIM FORM SECTION */
 #features {
     background-color: #fff;
     padding: 80px 20px;
