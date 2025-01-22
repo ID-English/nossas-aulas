@@ -148,7 +148,7 @@
             Seu e-book "10 Dicas para Aprender Inglês" está pronto para download.
             Clique no botão abaixo para baixar!
         </p>
-        <a href="../assets/img/ID-English-Ebook.pdf" class="download-btn" data-aos="fade-up" data-aos-delay="400">
+        <a href="../assets/img/ID-English-Ebook.pdf" class="download-btn" data-aos="fade-up" data-aos-delay="400" download="../assets/img/ID-English-Ebook.pdf">
             <i class="fas fa-download"></i>
             Baixar E-book
         </a>
@@ -162,25 +162,6 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        function iniciarDownload() {
-            const link = document.createElement('a');
-            link.href = '../assets/downloads/ID-English-Ebook.pdf';
-            link.download = 'ID-English-Ebook.pdf';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        }
-
-        // Adicionar listeners
-        document.querySelector('.download-btn').addEventListener('click', function(e) {
-            e.preventDefault();
-            iniciarDownload();
-        });
-
-        document.querySelector('.hero-ebook img').addEventListener('click', function() {
-            iniciarDownload();
-        });
-
         // AOS init
         window.addEventListener('load', function() {
             AOS.init({
